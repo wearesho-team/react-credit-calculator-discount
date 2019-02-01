@@ -58,6 +58,7 @@ export class Controller extends React.Component<{}, ControllerState> {
         return {
             discounts: targetDiscounts,
             onChange: this.handleChange,
+            initialInterest: this.context.interest,
         }
     }
 
