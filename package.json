@@ -27,6 +27,7 @@
     "codecov": "^3.1.0",
     "cross-env": "^5.0.5",
     "react": "^16.7.0",
+    "react-credit-calculator": "^2.0.1",
     "tslint": "^5.7.0",
     "typescript": "^3.2.4",
     "webpack": "^4.29.0",
