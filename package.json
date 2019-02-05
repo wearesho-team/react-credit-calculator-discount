@@ -5,7 +5,8 @@
   "main": "build/index.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack --mode=production",
-    "lint": "./node_modules/.bin/tslint --project ."
+    "lint": "./node_modules/.bin/tslint --project .",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
